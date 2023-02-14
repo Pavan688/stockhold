@@ -1,0 +1,15 @@
+.description {
+    width: 400px;
+    border: 7px solid black;
+    padding: 50px;
+    margin: 20px;
+    font-weight: 600;
+    font-size: larger;
+    background-color: #E1EBEE;
+}
+
+.box {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}

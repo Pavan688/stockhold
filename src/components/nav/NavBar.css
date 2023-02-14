@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+
+.navbar__item {
+    flex-basis: 20%;
+    list-style-type: none;
+    padding: 6px;
+    border: 6px solid azure;
+    background-color: orangered;
+    text-align: center;
+}
+
+.navbar__logout {
+    margin-left: auto;
+}
+
+.navbar__link {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar__link:link {
+    text-decoration: none;
+}
+
+.navbar__link:visited {
+    text-decoration: none;
+}
+
+.navbar__link:hover {
+    background-color: white;
+}

@@ -1,0 +1,58 @@
+.rooms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.room {
+    background-color: #E1EBEE;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 0.5rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    width: 200px;
+}
+
+.inventory-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    border: 3px solid black;
+    margin: 4px;
+    background-color: #E1EBEE;
+    font-weight: 600;
+}
+
+
+
+.room-link {
+    color: black;
+    font-weight: bold;
+}
+
+.room-link:link {
+    text-decoration: none;
+}
+
+.room-link:visited {
+    text-decoration: none;
+}
+
+.edit {
+    color: black;
+    font-weight: bold;
+    padding: 2px; 
+    margin: 2px;
+}
+
+.edit:link {
+    text-decoration: none;
+}
+
+.edit:visited {
+    text-decoration: none;
+}

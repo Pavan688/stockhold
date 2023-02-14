@@ -1,0 +1,10 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 5px;
+    border: 3px solid black;
+    margin: 4px;
+    background-color: #E1EBEE;
+    font-weight: 600;
+}
